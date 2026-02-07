@@ -1,1059 +1,1054 @@
 
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>MI beauty </title>
+        <title>MI beauty </title>
 
-  <meta name="description" content="mi beauty وكيل رسمي معتمد لمستحضرات التجميل والعناية بالبشرة. أسعار جملة، خصومات للتجار، منتجات أصلية 100%.">
-  <meta name="author" content="mi beauty">
-  <meta name="robots" content="index, follow">
+        <meta name="description" content="mi beauty وكيل رسمي معتمد لمستحضرات التجميل والعناية بالبشرة. أسعار جملة، خصومات للتجار، منتجات أصلية 100%.">
+        <meta name="author" content="mi beauty">
+        <meta name="robots" content="index, follow">
 
-  <!-- Favicon -->
-  <link rel="icon" href="images/icon.png" type="image/png">
+        <!-- Favicon -->
+        <link rel="icon" href="images/icon.png" type="image/png">
 
-  <!-- Open Graph (شكل اللينك على فيسبوك وواتساب) -->
-  <meta property="og:title" content="mi beauty | مستحضرات التجميل">
-  <meta property="og:description" content="وكيل رسمي لمستحضرات التجميل – أسعار جملة وبونصات للتجار">
-  <meta property="og:image" content="">
-  <meta property="og:type" content="website">
+        <!-- Open Graph (شكل اللينك على فيسبوك وواتساب) -->
+        <meta property="og:title" content="mi beauty | مستحضرات التجميل">
+        <meta property="og:description" content="وكيل رسمي لمستحضرات التجميل – أسعار جملة وبونصات للتجار">
+        <meta property="og:image" content="">
+        <meta property="og:type" content="website">
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <!-- Your CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
+        <!-- Your CSS -->
+        <link rel="stylesheet" href="style.css">
+        </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div id="nav" class="container-fluid">
-                <a class="navbar-brand" href="#"><img style="width: 250px;" src="images/logo.jpeg" alt=""><img style="width:250px" src="images/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a  class="nav-link active text-dark" href="#" onclick="showSlide('home')">Home/رئيسية</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="showSlide('products')">Products/منتجات</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="showSlide('contact')">Contact/تواصل</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="showSlide('about')">About us/حولنا</a>
-                        </li>
-                    </ul>
+        <body>
+            <header>
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <div id="nav" class="container-fluid">
+                        <a class="navbar-brand" href="#"><img style="width: 250px;" src="images/logo.jpeg" alt=""><img style="width:250px" src="images/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a  class="nav-link active text-dark" href="#" onclick="showSlide('home')">Home/رئيسية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" onclick="showSlide('products')">Products/منتجات</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" onclick="showSlide('contact')">Contact/تواصل</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" onclick="showSlide('about')">About us/حولنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section id="home" class="slide active">
+                    <video autoplay muted loop id="background-video">
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+                    <div class="mainheader">
+                        <h1 style="color:white;font-size:65px; margin-top:100px;text-align:center"><span style="color: rgb(252, 146, 88);">MI</span> - beauty <br> <span style="color:rgb(252, 146, 88);">إم آي </span>- بيوتي</h1>
+                        <p style="font-weight:400; font-size:25px; "><span  style="color:rgba(232, 204, 46, 0.852)"></p>
+                            <h2 style="color:rgba(255, 255, 255, 0.852);background:rgba(0,0,0,0.45);padding:10px;text-align:center;border-radius:10px">جمال هادئ .. مع بشرة طبيعية</h2>
+                    </div>
+                </section>
+                <section id="products" class="slide" style="margin-top: 40px;">
+            <h1 class="text-center my-5" style="font-size:50px">Our Products/منتجاتنا</h1>
+            <div class="container " id="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img1.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        صابون لبان الذكر بالكولاجين صافلك
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img2.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        صابون تفتيح للمناطق الحساسة صافلك
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img3.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        صابونة الكركم صافلك
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img4.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                    صابونة النيلة الزرقاء صافلك
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img6.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        صابون العرقسوس صافلك
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img7.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        حناء أحمر خاص رانئ
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img8.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        حناء رسم  نيزا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img9.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بدي اسبلاش انشانتير
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img10.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بلاشر استيك روز بيري
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img11.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بيكيني باتر
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img12.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        ماسك مايلينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img13.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        جل صبار كوري الوفيرا 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img15.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        منتجات موري
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img16.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مرطب الشعر بالكافيار بريموكس
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img17.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        شامبو موري
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img18.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كولاجين
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img19.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        حنا بيضاء ديفا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img20.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        جل لبان دكر العطار
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img21.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم لبان دكر العطار
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img22.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بدي اسبلاش واتسون
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img23.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        جل صبار برطمان العطار
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img24.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        املاح الباديكير الفوارة كوينز
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img25.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        معجون حنا نقش الجوليشا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img26.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بلاشر & هايليتر نود
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img27.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم تاتش مو لتكبير الارداف
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img28.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم مزيل لرائحة العرق سبرينج
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img29.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم قشطة الاميرات كارينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img30.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        خميرة البيرة بريانكا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img31.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        نيلة زرقاء كوينز
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img32.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم تاتش مو لتكبير الصدر
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img33.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        روج سحري
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img34.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مرطب شفايف توناكو التايلاندي
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img35.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        شفرات حلاقة فلامنجو نسائي
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img36.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        حنا نيها
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img37.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        املاح الباديكير الفوارة لمسة ستار
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img38.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        ايشادو
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img39.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل طلاء اظافر شيجلام
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img40.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        ماء ورد العراب
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img41.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        دم الغزال العطار
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img42.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بدي لوشن 200مل جليسوليد
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img43.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بدي لوشن 500مل جليسوليد
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img44.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم 50مل كير اند مور
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img45.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم كير اند مور
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img46.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        لوشن كير اند مور
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img47.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كير اند مور
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img48.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        بدي لوشن بدي شوب 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img49.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        سويت الدلكة السودانية مايلينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img50.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مرطب شفايف مايلينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img51.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        معطر/مرطب كلارينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img52.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        كريم تفتيح كلارينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img53.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        سروم للشعر كلارينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img54.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        حمام كريم/شامبو/بلسم كلارينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img55.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        غسول للوجه كلارينا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img56.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        املاح الباديكير الفوارة راني كون
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img57.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        فازلين فيولا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img58.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق اكس 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img59.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق اكس 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img60.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق اكس 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img61.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق اكس 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img62.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق اكس 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img63.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق اكس 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img76.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق اكس 
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img64.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق ربكسونا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img65.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق ربكسونا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img66.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق ربكسونا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img67.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق ربكسونا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img75.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق ربكسونا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img68.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق نيفيا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img69.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق نيفيا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img70.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق نيفيا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img71.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق نيفيا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img72.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق نيفيا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img73.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق نيفيا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card h-100">
+                            <img src="images/img74.jpeg" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <span class="badge bg-dark px-3 py-2">
+                                        مزيل عرق نيفيا
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section id="home" class="slide active">
-            <video autoplay muted loop id="background-video" >
-                <source src="video.mp4" type="video/mp4">
-            </video>
-            <div class="mainheader">
-                <h1 style="color:white; margin-top:100px;text-align:center;font-size:50px"><span style="color: rgb(252, 146, 88);">MI</span> - beauty <br> <span style="color:rgb(252, 146, 88);">إم آي </span>- بيوتي</h1>
-                <p style="font-weight:400; font-size:25px; "><span  style="color:rgba(232, 204, 46, 0.852)"></p>
-                    <h2 style="color:rgba(255, 255, 255, 0.852);background:rgba(0,0,0,0.45);padding:10px;text-align:center;border-radius:10px">جمال هادئ .. مع بشرة طبيعية</h2>
-              </div>
         </section>
-        <section id="products" class="slide" style="margin-top: 40px;">
-    <h1 class="text-center my-5" style="font-size:50px">Our Products/منتجاتنا</h1>
-    <div class="container " id="container">
-        <div class="row g-4 justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img1.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                صابون لبان الذكر بالكولاجين صافلك
-                            </span>
-                        </h5>
-                    </div>
-                </div>
+                <section  id="contact" class="slide">
+                    <h1 id="h1contact">Contact</h1>
+
+                    <p id="h1contact">Get in touch with us...</p>
+                    <div class="links">
+                        <a target="_blank" href="https://www.facebook.com/ajml.lmsh.408857?mibextid=ZbWKwL">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a target="_blank" href="tel:+201124702964">
+                            <i class="bi bi-telephone-outbound"></i>
+                        </a>
+                        <a target="_blank" href="https://wa.me/201124702964?text=مرحبا%20عايز%20استفسر%20عن%20منتجات%20MI%20beauty">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a target="_blank" href="https://www.tiktok.com/@user4393600651615?_r=1&_d=f023l970k1bc0k&sec_uid=MS4wLjABAAAAcVG1JlpWP-ng3D_WdKDNDbmWtMPRqZTkGzMp3V5cJ0NzI838XwT0KRLUSGGxVQ_b&share_author_id=7389740016862282757&sharer_language=ar&source=h5_m&u_code=ef4gkj2fadi2a3&timestamp=1770231696&user_id=7389740016862282757&sec_user_id=MS4wLjABAAAAcVG1JlpWP-ng3D_WdKDNDbmWtMPRqZTkGzMp3V5cJ0NzI838XwT0KRLUSGGxVQ_b&item_author_type=1&utm_source=whatsapp&utm_campaign=client_share&utm_medium=android&share_iid=7568978580617594642&share_link_id=4a50e44c-adc1-4ae6-89da-c96f5c7f15e4&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+                        <a target="_blank" href="https://t.me/skincare147">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+        <a target="_blank" href="#" id="vodafoneCash">
+            <i class="bi bi-wallet2"></i> فودافون كاش
+        </a>
+        <div  class="modal fade" id="copyModal" tabindex="-1" aria-labelledby="copyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="copyModalLabel">تم النسخ</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                تم نسخ رقم فودافون كاش: <strong id="copiedNumber"></strong>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img2.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                صابون تفتيح للمناطق الحساسة صافلك
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img3.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                صابونة الكركم صافلك
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img4.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                            صابونة النيلة الزرقاء صافلك
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img6.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                صابون العرقسوس صافلك
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img7.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                حناء أحمر خاص رانئ
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img8.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                حناء رسم  نيزا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img9.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بدي اسبلاش انشانتير
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img10.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بلاشر استيك روز بيري
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img11.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بيكيني باتر
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img12.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                ماسك مايلينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img13.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                جل صبار كوري الوفيرا 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img15.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                منتجات موري
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img16.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مرطب الشعر بالكافيار بريموكس
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img17.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                شامبو موري
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img18.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كولاجين
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img19.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                حنا بيضاء ديفا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img20.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                جل لبان دكر العطار
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img21.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم لبان دكر العطار
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img22.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بدي اسبلاش واتسون
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img23.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                جل صبار برطمان العطار
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img24.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                املاح الباديكير الفوارة كوينز
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img25.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                معجون حنا نقش الجوليشا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img26.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بلاشر & هايليتر نود
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img27.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم تاتش مو لتكبير الارداف
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img28.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم مزيل لرائحة العرق سبرينج
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img29.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم قشطة الاميرات كارينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img30.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                خميرة البيرة بريانكا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img31.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                نيلة زرقاء كوينز
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img32.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم تاتش مو لتكبير الصدر
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img33.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                روج سحري
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img34.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مرطب شفايف توناكو التايلاندي
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img35.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                شفرات حلاقة فلامنجو نسائي
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img36.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                حنا نيها
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img37.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                املاح الباديكير الفوارة لمسة ستار
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img38.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                ايشادو
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img39.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل طلاء اظافر شيجلام
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img40.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                ماء ورد العراب
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img41.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                دم الغزال العطار
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img42.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بدي لوشن 200مل جليسوليد
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img43.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بدي لوشن 500مل جليسوليد
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img44.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم 50مل كير اند مور
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img45.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم كير اند مور
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img46.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                لوشن كير اند مور
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img47.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كير اند مور
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img48.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                بدي لوشن بدي شوب 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img49.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                سويت الدلكة السودانية مايلينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img50.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مرطب شفايف مايلينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img51.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                معطر/مرطب كلارينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img52.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                كريم تفتيح كلارينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img53.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                سروم للشعر كلارينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img54.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                حمام كريم/شامبو/بلسم كلارينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img55.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                غسول للوجه كلارينا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img56.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                املاح الباديكير الفوارة راني كون
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img57.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                فازلين فيولا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img58.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق اكس 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img59.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق اكس 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img60.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق اكس 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img61.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق اكس 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img62.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق اكس 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img63.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق اكس 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img76.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق اكس 
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img64.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق ربكسونا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img65.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق ربكسونا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img66.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق ربكسونا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img67.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق ربكسونا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img75.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق ربكسونا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img68.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق نيفيا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img69.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق نيفيا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img70.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق نيفيا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img71.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق نيفيا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img72.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق نيفيا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img73.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق نيفيا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                    <img src="images/img74.jpeg" class="card-img-top" alt="">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">
-                            <span class="badge bg-dark px-3 py-2">
-                                مزيل عرق نيفيا
-                            </span>
-                        </h5>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-</section>
-        <section  id="contact" class="slide">
-            <h1 id="h1contact">Contact</h1>
+        </div>  
+                    </div>
+                </section>
+                <section style="margin-top:30px" id="about" class="slide">
+                    <h1 style="font-size:70px;text-align:center;margin-top:60px">About Us</h1>
+        <p style="text-align: right; direction: rtl;">
+            من نحن<br><br>
 
-            <p id="h1contact">Get in touch with us...</p>
-            <div class="links">
-                <a target="_blank" href="https://www.facebook.com/ajml.lmsh.408857?mibextid=ZbWKwL">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a target="_blank" href="tel:+201124702964">
-                    <i class="bi bi-telephone-outbound"></i>
-                </a>
-                <a href="https://wa.me/201124702964?text=مرحبا" target="_blank">
+            <span dir="ltr">MI Beauty</span> علامة تجارية متخصصة في مستحضرات التجميل والعناية بالبشرة. نعمل على توفير مجموعة متنوعة من المنتجات التي تجمع بين الجودة العالية والفاعلية، وتناسب مختلف أنواع البشرة.
+            <br><br>
 
-                    <i class="bi bi-whatsapp"></i>
-                </a>
-                <a target="_blank" href="https://www.tiktok.com/@user4393600651615?_r=1&_d=f023l970k1bc0k&sec_uid=MS4wLjABAAAAcVG1JlpWP-ng3D_WdKDNDbmWtMPRqZTkGzMp3V5cJ0NzI838XwT0KRLUSGGxVQ_b&share_author_id=7389740016862282757&sharer_language=ar&source=h5_m&u_code=ef4gkj2fadi2a3&timestamp=1770231696&user_id=7389740016862282757&sec_user_id=MS4wLjABAAAAcVG1JlpWP-ng3D_WdKDNDbmWtMPRqZTkGzMp3V5cJ0NzI838XwT0KRLUSGGxVQ_b&item_author_type=1&utm_source=whatsapp&utm_campaign=client_share&utm_medium=android&share_iid=7568978580617594642&share_link_id=4a50e44c-adc1-4ae6-89da-c96f5c7f15e4&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1">
-                    <i class="bi bi-tiktok"></i>
-                </a>
-                <a target="_blank" href="https://t.me/skincare147">
-                    <i class="bi bi-telegram"></i>
-                </a>
-<a target="_blank" href="#" id="vodafoneCash">
-    <i class="bi bi-wallet2"></i> فودافون كاش
-</a>
-<div  class="modal fade" id="copyModal" tabindex="-1" aria-labelledby="copyModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="copyModalLabel">تم النسخ</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        تم نسخ رقم فودافون كاش: <strong id="copiedNumber"></strong>
-      </div>
-    </div>
-  </div>
-</div>  
-            </div>
-        </section>
-        <section style="margin-top:30px" id="about" class="slide">
-            <h1 style="font-size:70px;text-align:center;margin-top:60px">About Us</h1>
-<p style="text-align: right; direction: rtl;">
-    من نحن<br><br>
+            نحرص دائمًا على اختيار منتجات آمنة ومجربة، مع متابعة أحدث التطورات في مجال الجمال والعناية الشخصية، لضمان تجربة مميزة ونتائج مرضية لعملائنا.
+            <br><br>
 
-    <span dir="ltr">MI Beauty</span> علامة تجارية متخصصة في مستحضرات التجميل والعناية بالبشرة. نعمل على توفير مجموعة متنوعة من المنتجات التي تجمع بين الجودة العالية والفاعلية، وتناسب مختلف أنواع البشرة.
-    <br><br>
-
-    نحرص دائمًا على اختيار منتجات آمنة ومجربة، مع متابعة أحدث التطورات في مجال الجمال والعناية الشخصية، لضمان تجربة مميزة ونتائج مرضية لعملائنا.
-    <br><br>
-
-    في <span dir="ltr">MI Beauty</span> نؤمن أن الجمال يبدأ من العناية الصحيحة، لذلك نسعى إلى تقديم منتجات تساعد على إبراز الجمال الطبيعي وتعزيز الثقة بالنفس. رضا عملائنا هو هدفنا الأول، ونسعى دائمًا لأن نكون الخيار المفضل في عالم الجمال.
-</p>
-
-        </section>
-    </main>
-    <footer class="site-footer">
-    <div class="footer-line"></div>
-    <div class="container footer-content">
-        <p class="brand">
-
-        © MI beauty _ إم آي بيوتي
+            في <span dir="ltr">MI Beauty</span> نؤمن أن الجمال يبدأ من العناية الصحيحة، لذلك نسعى إلى تقديم منتجات تساعد على إبراز الجمال الطبيعي وتعزيز الثقة بالنفس. رضا عملائنا هو هدفنا الأول، ونسعى دائمًا لأن نكون الخيار المفضل في عالم الجمال.
         </p>
-        <p class="brand">© 2026 Designed by Mohamed ELmenshawy</p>
+
+                </section>
+            </main>
+            <footer class="site-footer">
+            <div class="footer-line"></div>
+            <div class="container footer-content">
+                <p class="brand">
+
+                © MI beauty _ إم آي بيوتي
+                </p>
+                <p class="brand">© 2026 Designed by Mohamed ELmenshawy</p>
+                
+            </div>
+        </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="index.js"></script>
+        </body>
+        </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
-    </div>
-</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="index.js"></script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
