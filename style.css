@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    border: 2px black solid;
+    border-radius: 40px;
+    padding: ;
+    margin: 10px;
+    background-color: rgb(138,43,226,0.3);
+    color: #ffffff;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.slide {
+    display: none; 
+    padding: 100px 20px;
+    min-height: 100vh;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    display: block;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.mainheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+#contact h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+#contact p {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    justify-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.links a i {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+#instaPay span,
+#vodafoneCash span {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.links a:hover {
+    transform: translateY(-5px);
+    color: rgb(232, 204, 46);
+}
+
+#contact {
+    background-image: url(images/background.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 35px;
+}
+
+
+
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    z-index: 99999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-line {
+    height: 3px;
+    width: 100%;
+}
+.footer-content {
+    text-align: center;
+    padding: 12px 10px;
+}
+.footer-content .brand {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.footer-content .brand span {
+    color: rgb(232, 204, 46);
+}
+.footer-content .tax {
+    font-size: 12px;
+    opacity: 0.8;
+}
+@media (max-width: 576px) {
+    .footer-content .brand {
+        font-size: 12px;
+    }
+    .footer-content .tax {
+        font-size: 11px;
+    }
+}
+.card {
+    flex: 1 1 18rem; 
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        max-width: 90%; 
+    }
+}
